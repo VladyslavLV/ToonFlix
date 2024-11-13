@@ -1,0 +1,132 @@
+/* Основні стилі */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #d3d3d3;
+}
+
+/* Шапка */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #262626;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF8C00;
+}
+
+header nav a {
+    margin: 0 10px;
+    color: #d3d3d3;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #FF8C00;
+}
+
+header .login-btn {
+    padding: 8px 15px;
+    background-color: #FF8C00;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Головний банер */
+.banner {
+    padding: 60px 30px;
+    text-align: center;
+    /*background: url('banner.jpg') no-repeat center center/cover;*/
+    color: #ffffff;
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.banner .watch-now {
+    padding: 12px 20px;
+    background-color: #FF8C00;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+/* Контент */
+.content-section {
+    padding: 30px;
+}
+
+.content-section h2 {
+    font-size: 32px;
+    color: #FF8C00;
+}
+
+.movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+.movie-card {
+    background-color: #262626;
+    border-radius: 8px;
+    width: 200px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-card .info {
+    padding: 15px;
+}
+
+.movie-card .info h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #FF8C00;
+}
+
+.movie-card .info p {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #d3d3d3;
+}
+
+/* Футер */
+footer {
+    padding: 20px 30px;
+    background-color: #262626;
+    text-align: center;
+    color: #d3d3d3;
+}
+
+footer a {
+    color: #FF8C00;
+    text-decoration: none;
+}
