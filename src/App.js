@@ -5,21 +5,6 @@ import Anime from './components/Anime';
 
 
 function App() {
-    const [content, setContent] = useState('Content')
-
-    const changeContent =() => {
-        setContent('Anime')
-    };
-
-    return (
-        <div>
-            <Header onChangeContent={changeContent} />
-            {
-                content === 'Content' ? <Content /> : <Anime />
-            }
-        </div>
-    )
 
 }
-
 export default App;
