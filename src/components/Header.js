@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header = ({onChangeContent}) => {
+const Header = () => {
 
     const loadContent = () => {
     }
@@ -10,7 +10,7 @@ const Header = ({onChangeContent}) => {
                 <div className="logo">Аніме & Фільми</div>
                 <nav>
                     <a href="#">Головна</a>
-                    <a href="#" onClick={onChangeContent}>Аніме</a>
+                    <a href="#" >Аніме</a>
                     <a href="#">Фільми</a>
                     <a href="#">Новинки</a>
                     <a href="#">Популярне</a>

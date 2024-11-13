@@ -2,7 +2,7 @@ import React from 'react';
 
 const Content = () => {
     return (
-        <div className="Content">
+        <div className="Content" >
             <div className="banner">
                 <h1>Відкрийте світ аніме та фільмів</h1>
                 <p>Насолоджуйтесь найкращими релізами в HD якості прямо зараз!</p>
